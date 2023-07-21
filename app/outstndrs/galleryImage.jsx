@@ -9,7 +9,7 @@ export function GalleryImage({ imagePath, w, h, colSpan }) {
         src={imagePath}
         width={w}
         height={h}
-        style={{ objectFit: "contain" }}
+        style={{ objectFit: "cover" }}
         className="rounded-lg"
         alt="outstndrsGallery"
       ></Image>

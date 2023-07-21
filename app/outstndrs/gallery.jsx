@@ -9,12 +9,12 @@ export function Gallery() {
         <h1 className="lg:hidden block">Outstndrs Gallery</h1>
       </div>
       <div className="flex flex-initial">
-        <div className="grid sm:grid-cols-2 grid-cols-2 gap-8 lg:w-[50vw] w-[95vw] mx-auto break-words">
+        <div className="grid sm:grid-cols-2 grid-cols-2 gap-4 lg:w-[50vw] w-[95vw] mx-auto break-words">
           <GalleryImage
             imagePath="/wireframe.webp"
             w={1000}
             h={0}
-            colSpan={"sm:col-span-2 col-span-1"}
+            colSpan={"col-span-2"}
           />
           <GalleryImage
             imagePath="/marsTower.webp"
@@ -23,7 +23,7 @@ export function Gallery() {
             colSpan={"row-span-2"}
           />
           <GalleryImage imagePath="/marsBuild1.webp" w={1000} h={0} />
-          <GalleryImage imagePath="/mameBuild1.webp" w={1000} h={0} />
+          <GalleryImage imagePath="/whole.webp" w={1000} h={0} />
           <GalleryImage imagePath="/Day.webp" w={1000} h={0} />
         </div>
       </div>
