@@ -28,16 +28,16 @@ export function Main({
 
         {age ? (
           <>
-            <div class="flex justify-between mb-1">
-              <span class="text-base font-medium text-blue-700 dark:text-white">
+            <div className="flex justify-between mb-1">
+              <span className="text-base font-medium text-blue-700 dark:text-white">
                 Age
               </span>
-              <span class="text-sm font-medium text-blue-700 dark:text-white">
+              <span className="text-sm font-medium text-blue-700 dark:text-white">
                 14%
               </span>
             </div>
-            <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
-              <div class="w-[14%] bg-blue-600 h-2.5 rounded-full"></div>
+            <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+              <div className="w-[14%] bg-blue-600 h-2.5 rounded-full"></div>
             </div>
           </>
         ) : (

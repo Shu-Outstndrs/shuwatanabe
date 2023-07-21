@@ -3,7 +3,7 @@ import { CareerTitles } from "./careerTitles";
 export function Career() {
   return (
     <div className="lg:pt-12 pt-16">
-      <ol class="mx-4 sm:mx-8 md:mx-12 relative border-l border-gray-200 dark:border-gray-700">
+      <ol className="mx-4 sm:mx-8 md:mx-12 relative border-l border-gray-200 dark:border-gray-700">
         <CareerTitles
           date="2023年7月1日"
           title="HTML/TailwindCSSでweb制作を開始"

@@ -1,3 +1,6 @@
+"use client";
+//prettier-ignore
+
 import Image from "next/image";
 import { BackToHome } from "../backToHome";
 import { Main } from "../main";

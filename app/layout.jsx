@@ -1,5 +1,6 @@
 import "./globals.css";
 import Image from "next/image";
+import { RoutingView } from "./routingView";
 import { Noto_Sans_JP, Inter } from "next/font/google";
 
 export const notojp = Noto_Sans_JP({
@@ -21,6 +22,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${notojp.className} ${inter.className} flex flex-col w-[100%] m-auto m-full min-h-[100vh] font-light`}
       >
+        <header className="mb-14">
+          <RoutingView />
+        </header>
         {children}
         <div className="fixed w-full h-screen z-[-1]">
           <Image
