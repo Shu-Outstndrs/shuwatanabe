@@ -22,7 +22,7 @@ export default function Page() {
           <Career />
         </div>
       </div>
-      <Footer backBtn />
+      <Footer />
     </>
   );
 }

@@ -18,7 +18,7 @@ export default function Page() {
         />
         <Gallery />
       </div>
-      <Footer backBtn />
+      <Footer />
     </>
   );
 }
