@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+import { notojp } from "./font";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +13,9 @@ export const metadata = {
 export default function RootLayout({ children, home }) {
   return (
     <html lang="en">
-      <body className="flex flex-col w-[100%] m-auto m-full min-h-[100vh] font-light">
+      <body
+        className={`${notojp.className} flex flex-col w-[100%] m-auto m-full min-h-[100vh] font-light`}
+      >
         {children}
         <div className="fixed w-full h-screen z-[-1]">
           <Image
