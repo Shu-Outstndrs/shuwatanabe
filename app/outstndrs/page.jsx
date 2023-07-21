@@ -10,7 +10,7 @@ export default function Page() {
       <BackToHome />
       <div className="lg:flex lg:flex-1 lg:min-h-[100vh]">
         <Main
-          imgPath="/outstndrs-white.png"
+          imgPath="/Outstndrs-white.png"
           title1="team"
           title2="outstndrs"
           description1="Minecraft, Education"
