@@ -14,7 +14,7 @@ export function Main({
       <div className="flex flex-col m-auto mt-10 lg:w-[30vw] w-[61vw]">
         <div className="m-auto">
           <Image
-            className="z-1 mt-4 mb-2 align-middle rounded-full"
+            className="z-1 mt-4 mb-2 align-middle"
             src={imgPath}
             width={240}
             height={240}
