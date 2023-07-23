@@ -23,7 +23,7 @@ export function Main({
         </div>
         <div className="mt-8 mb-8 text-center whitespace-nowrap">
           <h1 className="font-base lg:text-7xl text-6xl">{title1}</h1>
-          <h1 className="lg:text-6xl text-5xl">{title2}</h1>
+          {title2 ? <h1 className="lg:text-6xl text-5xl">{title2}</h1> : <></>}
         </div>
 
         {age ? (

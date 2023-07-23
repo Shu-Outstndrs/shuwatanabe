@@ -1,6 +1,12 @@
 import Link from "next/link";
 
-export function LinkCard({ title, description, href, children }) {
+export function LinkCard({ title, date, description, href, children }) {
+  const formattedDate = new Date(date?.createdAt).toLocaleDateString("ja-JP", {
+    //dateの前に?つけると存在の有無で実行するかを決めれる
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
   return (
     <Link
       href={href}
@@ -10,6 +16,7 @@ export function LinkCard({ title, description, href, children }) {
       <h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
         {title}
       </h5>
+      {date && formattedDate}
       <p className="text-gray-500 dark:text-gray-400">{description}</p>
     </Link>
   );

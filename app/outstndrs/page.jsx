@@ -1,8 +1,4 @@
-"use client";
-//prettier-ignore
-
 import Image from "next/image";
-import { BackToHome } from "../backToHome";
 import { Main } from "../main";
 import { Footer } from "../footer";
 import { Gallery } from "./gallery";
@@ -10,7 +6,6 @@ import { Gallery } from "./gallery";
 export default function Page() {
   return (
     <>
-      <BackToHome />
       <div className="lg:flex lg:flex-1 lg:min-h-[100vh]">
         <Main
           imgPath="/Outstndrs-white.png"

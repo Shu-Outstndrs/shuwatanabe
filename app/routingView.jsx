@@ -6,7 +6,6 @@ import Link from "next/link";
 export function RoutingView() {
   const pathname = usePathname();
   const routePath = pathname.split("/").filter(Boolean);
-  console.log(routePath);
   return (
     <div className="flex fixed z-30 w-screen p-4 text-xl bg-white/90 backdrop-blur-sm rounded-b-lg">
       <Link
@@ -14,7 +13,7 @@ export function RoutingView() {
         href="/"
       >
         <svg
-          class="w-3 h-3 mt-2 mr-2.5"
+          className="w-3 h-3 mt-2 mr-2.5"
           aria-hidden="true"
           xmlns="http://www.w3.org/2000/svg"
           fill="currentColor"
@@ -34,9 +33,9 @@ export function RoutingView() {
         >
           <path
             stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
             d="m1 9 4-4-4-4"
           />
         </svg>
@@ -57,9 +56,9 @@ export function RoutingView() {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="m1 9 4-4-4-4"
                 />
               </svg>
