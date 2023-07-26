@@ -12,7 +12,7 @@ export async function SideCards() {
             <LinkCard
               title={`${post.title}`}
               date={post}
-              description={post.content}
+              description={""}
               href={`/blog/${post.slug}`}
             ></LinkCard>
           </div>

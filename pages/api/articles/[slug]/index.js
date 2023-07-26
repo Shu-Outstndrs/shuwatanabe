@@ -7,12 +7,14 @@ export default async function handler(req, res) {
   //GETのリクエストが来たら
   if (req.method === "GET") {
     const articles = fs.readFileSync("articles.json", "utf8"); //同期的に "articles.json" ファイルを読み込み、その内容を文字列として取得
-    const article = JSON.parse(articles).articles.find((a) => a.slug === slug); //記事の内容のslugとリクエストのslugが一致したら返す
+    const article = JSON.parse(articles).articles.find((a) => a.slug === slug); //記事の内容のslugとリクエストのslugが一致したらその内容を返す
+    // console.log(article);
+    //もしarticleの中身がなかったら
     if (!article) {
-      res.status(404).end();
+      res.status(404).end(); //404 not found
     }
 
-    res.status(200).json(article);
+    res.status(200).json(article); //200コードでarticleをjsonとして渡す
   } else if (req.method === "PUT") {
     const { title, content } = req.body;
     const articles = JSON.parse(fs.readFileSync("articles.json", "utf8"));

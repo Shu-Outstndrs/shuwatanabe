@@ -1,10 +1,9 @@
 import { fetchPosts } from "../getPostsTitles";
 
 const getArticle = async (slug) => {
-  const res = await fetch(`http://localhost:3000/api/articles/${slug}`);
+  const res = await fetch(`/api/articles/${slug}`);
 
   const data = await res.json();
-  console.log(data);
   return data;
 };
 
