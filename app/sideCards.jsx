@@ -5,7 +5,7 @@ export function SideCards() {
   return (
     <div className="flex lg:flex-col flex-initial lg:justify-normal justify-center lg:max-w-[50vw] max-w-[95vw] mt-8 mx-auto mb-4 text-white">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-8 break-words">
-        <LinkCard title="ブログ" description="個人ブログです" href="/blog">
+        <LinkCard title="経歴" description="過去" href="/career">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="1em"
