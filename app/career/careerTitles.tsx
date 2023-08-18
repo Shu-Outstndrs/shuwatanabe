@@ -1,5 +1,14 @@
 import Link from "next/link";
 
+type careerTitlesType = {
+  date: string;
+  title: string;
+  description: string;
+  linkButton: undefined | boolean;
+  linkTitle: undefined | string;
+  href: string;
+};
+
 export function CareerTitles({
   date,
   title,
@@ -7,7 +16,7 @@ export function CareerTitles({
   linkButton,
   linkTitle,
   href,
-}) {
+}: careerTitlesType) {
   return (
     <li className="mb-3 ml-4">
       <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>

@@ -16,6 +16,9 @@ export function Career() {
           date="2023年2月25日"
           title="チーム逸般人で講習会を開催"
           description="マイクラで簡単なタワーの作り方や、オリジナルブロックの作り方を参加してくれた子供たちに教えました。約10人の前で話すのは初めてだったので、緊張しました。"
+          linkButton={false}
+          linkTitle={undefined}
+          href=""
         />
         <CareerTitles
           date="2023年1月18日"
@@ -45,6 +48,9 @@ export function Career() {
           date="2016年"
           title="学校の授業がつまらなく、不登校に。"
           description="🤷"
+          linkButton={false}
+          linkTitle={undefined}
+          href=""
         />
       </ol>
     </div>

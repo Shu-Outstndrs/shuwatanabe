@@ -11,6 +11,7 @@ export default function Page() {
           imgPath="/Outstndrs-white.png"
           title1="team"
           title2="outstndrs"
+          age={false}
           description1="Minecraft, Education"
           description2="3DCG, Video"
         />

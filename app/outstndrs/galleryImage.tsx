@@ -1,6 +1,13 @@
 import Image from "next/image";
 
-export function GalleryImage({ imagePath, w, h, colSpan }) {
+type galleryImage = {
+  imagePath: string;
+  w: number;
+  h: number;
+  colSpan: string | undefined;
+};
+
+export function GalleryImage({ imagePath, w, h, colSpan }: galleryImage) {
   return (
     <div
       className={`${colSpan} flex justify-center min-w-lg p-1 bg-slate-800/60 backdrop-blur-md rounded-xl`}

@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 export function RoutingView() {
-  const pathname = usePathname();
+  const pathname: any = usePathname();
   const routePath = pathname.split("/").filter(Boolean);
   return (
     <div className="flex fixed z-30 w-screen p-4 text-xl bg-white/90 backdrop-blur-sm rounded-b-lg">
@@ -40,7 +40,7 @@ export function RoutingView() {
           />
         </svg>
       </span>
-      {routePath.map((path, index) => (
+      {routePath.map((path: string, index: number) => (
         <span
           key={index}
           className="flex ml-2 text-blue-600 hover:text-blue-700 hover:underline"

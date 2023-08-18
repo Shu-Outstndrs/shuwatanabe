@@ -1,6 +1,15 @@
 import Image from "next/image";
 import { Intro } from "./intro";
 
+type MainType = {
+  imgPath: string;
+  title1: string;
+  title2: string;
+  age: boolean;
+  description1: string;
+  description2: string;
+};
+
 export function Main({
   imgPath,
   title1,
@@ -8,7 +17,7 @@ export function Main({
   age,
   description1,
   description2,
-}) {
+}: MainType) {
   return (
     <main className="flex lg:w-[50vw] w-[100vw] lg:max-w-[50vw] lg:min-h-screen pb-10 text-white bg-zinc-900 lg:rounded-none rounded-b-[1rem]">
       <div className="flex flex-col m-auto mt-10 lg:w-[30vw] w-[61vw]">

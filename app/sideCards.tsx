@@ -1,4 +1,4 @@
-import { LinkCard } from "./linkCard";
+import { LinkCard } from "../components/linkCard";
 import Image from "next/image";
 
 export function SideCards() {
@@ -13,6 +13,19 @@ export function SideCards() {
             className="w-7 h-7 mb-3 dark:fill-slate-200 fill-slate-900"
           >
             <path d="M151.6 42.4C145.5 35.8 137 32 128 32s-17.5 3.8-23.6 10.4l-88 96c-11.9 13-11.1 33.3 2 45.2s33.3 11.1 45.2-2L96 146.3V448c0 17.7 14.3 32 32 32s32-14.3 32-32V146.3l32.4 35.4c11.9 13 32.2 13.9 45.2 2s13.9-32.2 2-45.2l-88-96zM320 480h32c17.7 0 32-14.3 32-32s-14.3-32-32-32H320c-17.7 0-32 14.3-32 32s14.3 32 32 32zm0-128h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H320c-17.7 0-32 14.3-32 32s14.3 32 32 32zm0-128H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H320c-17.7 0-32 14.3-32 32s14.3 32 32 32zm0-128H544c17.7 0 32-14.3 32-32s-14.3-32-32-32H320c-17.7 0-32 14.3-32 32s14.3 32 32 32z" />
+          </svg>
+        </LinkCard>
+        <LinkCard
+          title="私について"
+          description="もっと詳しく知りたい？（どうでもいいと人は思います）"
+          href="/about"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 689.1433 596.1848"
+            className="w-8 h-8 mb-1 dark:fill-slate-200 fill-slate-900"
+          >
+            <path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z" />
           </svg>
         </LinkCard>
         <LinkCard

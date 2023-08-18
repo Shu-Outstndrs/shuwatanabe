@@ -22,8 +22,18 @@ export function Gallery() {
             h={0}
             colSpan={"row-span-2"}
           />
-          <GalleryImage imagePath="/marsBuild1.webp" w={1000} h={0} />
-          <GalleryImage imagePath="/marsDorm.webp" w={1000} h={0} />
+          <GalleryImage
+            imagePath="/marsBuild1.webp"
+            w={1000}
+            h={0}
+            colSpan={undefined}
+          />
+          <GalleryImage
+            imagePath="/marsDorm.webp"
+            w={1000}
+            h={0}
+            colSpan={undefined}
+          />
           <GalleryImage
             imagePath="/whole.webp"
             w={1000}
