@@ -5,6 +5,19 @@ export function Career() {
     <div className="lg:pt-12 pt-16">
       <ol className="mx-4 sm:mx-8 md:mx-12 relative border-l border-gray-200 dark:border-gray-700">
         <CareerTitles
+          date="2023年9月9日"
+          title="株式会社MOVEDに参画"
+          description="友人からの誘いで、MOVEDに参加しました。"
+          linkButton
+          linkTitle="株式会社MOVED"
+          href="https://moved.co.jp"
+        />
+        <CareerTitles
+          date="2023年8月7日"
+          title="マレーシアに一週間語学留学"
+          description="初めての海外、初めての飛行機でした。"
+        />
+        <CareerTitles
           date="2023年7月1日"
           title="HTML/TailwindCSSでweb制作を開始"
           description="今まで『むずそうだから』という理由でプログラミングをしてなかったが、いざ初めて、HTML/CSSの全体像を理解したら、意外にできることがわかった。"
@@ -16,9 +29,6 @@ export function Career() {
           date="2023年2月25日"
           title="チーム逸般人で講習会を開催"
           description="マイクラで簡単なタワーの作り方や、オリジナルブロックの作り方を参加してくれた子供たちに教えました。約10人の前で話すのは初めてだったので、緊張しました。"
-          linkButton={false}
-          linkTitle={undefined}
-          href=""
         />
         <CareerTitles
           date="2023年1月18日"
@@ -48,9 +58,6 @@ export function Career() {
           date="2016年"
           title="学校の授業がつまらなく、不登校に。"
           description="🤷"
-          linkButton={false}
-          linkTitle={undefined}
-          href=""
         />
       </ol>
     </div>
