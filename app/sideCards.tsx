@@ -17,7 +17,7 @@ export function SideCards() {
         </LinkCard>
         <LinkCard
           title="私について"
-          description="もっと詳しく知りたい？（どうでもいいと人は思います）"
+          description="もっと詳しく知りたい？（？）"
           href="/about"
         >
           <svg
