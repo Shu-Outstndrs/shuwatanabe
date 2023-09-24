@@ -6,7 +6,7 @@ export function Career() {
       <ol className="mx-4 sm:mx-8 md:mx-12 relative border-l border-gray-200 dark:border-gray-700">
         <CareerTitles
           date="2023年9月9日"
-          title="株式会社MOVEDに参画"
+          title="株式会社MOVEDにジョイン"
           description="友人からの誘いで、MOVEDに参加しました。"
           linkButton
           linkTitle="株式会社MOVED"
@@ -23,7 +23,7 @@ export function Career() {
           description="今まで『むずそうだから』という理由でプログラミングをしてなかったが、いざ初めて、HTML/CSSの全体像を理解したら、意外にできることがわかった。"
           linkButton
           linkTitle="初めて作ったサイト"
-          href="https://shuwatanabe.vercel.app"
+          href="https://shuwatanabe-old.vercel.app"
         />
         <CareerTitles
           date="2023年2月25日"

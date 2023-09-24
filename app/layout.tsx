@@ -3,6 +3,7 @@ import Image from "next/image";
 import { RoutingView } from "./routingView";
 import { Noto_Sans_JP, Inter } from "next/font/google";
 import { ReactNode } from "react";
+import { Footer } from "./footer";
 
 export const notojp = Noto_Sans_JP({
   weight: ["400", "700"],
@@ -37,6 +38,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           />
           <div className="absolute inset-0 bg-slate-900/50 z-0 backdrop-blur"></div>
         </div>
+        <Footer />
       </body>
     </html>
   );
